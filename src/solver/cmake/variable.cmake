@@ -152,6 +152,7 @@ set(SRC_VARIABLE_ECONOMY
 		variable/economy/links/hurdleCosts.h
 		variable/economy/links/congestionFee.h
 		variable/economy/links/congestionFeeAbs.h
+		variable/economy/links/linkBaseCost.h
 		variable/economy/links/marginalCost.h
 		variable/economy/links/congestionProbability.h
 		)
