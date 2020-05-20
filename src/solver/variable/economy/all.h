@@ -82,6 +82,7 @@
 # include "links/congestionFee.h"
 # include "links/congestionFeeAbs.h"
 # include "links/marginalCost.h"
+# include "links/reducedCost.h"
 # include "links/congestionProbability.h"
 
 
@@ -106,9 +107,10 @@ namespace Economy
 			< CongestionFee                // Congestion Fee
 			< CongestionFeeAbs             // Congestion Fee (Abs)
 			< MarginalCost                 // Marginal Cost
+			< ReducedCost				   // Reduced Cost
 			< CongestionProbability        // Congestion Probability (+/-)
 			< HurdleCosts                  // Hurdle costs
-			< > > > > > > > > >            VariablePerLink;
+			< > > > > > > > > > >            VariablePerLink;
 	// forward declaration
 	class Links;
 

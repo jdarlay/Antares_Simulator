@@ -154,6 +154,7 @@ set(SRC_VARIABLE_ECONOMY
 		variable/economy/links/congestionFeeAbs.h
 		variable/economy/links/linkBaseCost.h
 		variable/economy/links/marginalCost.h
+		variable/economy/links/reducedCost.h
 		variable/economy/links/congestionProbability.h
 		)
 source_group("variable\\economy" FILES ${SRC_VARIABLE_ECONOMY})

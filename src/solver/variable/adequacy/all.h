@@ -72,6 +72,7 @@
 # include "../economy/links/congestionFee.h"
 # include "../economy/links/congestionFeeAbs.h"
 # include "../economy/links/marginalCost.h"
+# include "../economy/links/reducedCost.h"
 # include "../economy/links/congestionProbability.h"
 
 
@@ -95,9 +96,10 @@ namespace Adequacy
 			< Variable::Economy::CongestionFee                // Congestion Fee
 			< Variable::Economy::CongestionFeeAbs             // Congestion Fee (Abs)
 			< Variable::Economy::MarginalCost                 // Marginal Cost
+			< Variable::Economy::ReducedCost				  // Reduced Cost
 			< Variable::Economy::CongestionProbability        // Congestion Probability (+/-)
 			< Variable::Economy::HurdleCosts                  // Hurdle costs
-			< > > > > > > > >              VariablePerLink;
+			< > > > > > > > > >             VariablePerLink;
 	// forward declaration
 	class Links;
 
