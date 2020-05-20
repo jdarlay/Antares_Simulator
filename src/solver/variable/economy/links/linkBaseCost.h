@@ -117,6 +117,11 @@ namespace Antares
 
 				public:
 
+					~LinkBaseCost()
+					{
+						delete[] pValuesForTheCurrentYear;
+					}
+
 					void initializeFromStudy(Data::Study& study)
 					{
 						pNbYearsParallel = study.maxNbYearsInParallel;

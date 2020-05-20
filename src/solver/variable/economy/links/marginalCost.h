@@ -62,11 +62,6 @@ namespace Economy
 	{
 
 	public:
-		~MarginalCost()
-		{
-			delete[] pValuesForTheCurrentYear;
-		}
-
 		
 		void hourForEachLink(State& state, unsigned int numSpace)
 		{
